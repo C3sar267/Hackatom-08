@@ -1,0 +1,106 @@
+.Iconos{
+
+    width: 100%;
+    
+    margin: 0 auto;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+    border-bottom: rgb(141, 141, 141) 1px solid;
+    align-items: center;
+    
+
+
+&-Cajon-1{
+    width: 15%;
+    height: 15em;
+    
+    background-color:rgb(255, 255, 255);
+    display: inline-block;
+    margin: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+&-Sonrisa-1{
+    
+    width:  55px;
+    height: 55px;
+    margin: 9px;
+    background-color:rgb(255, 208, 0);
+    border-radius: 50px;
+    background-image: url(./img/sonrisa-01.svg);
+    
+}
+
+&-Porciento-2{
+    
+    width:  55px;
+    height: 55px;
+    margin: 9px;
+    background-color:rgb(255, 208, 0);
+    background-repeat: no-repeat;
+    border-radius: 50px;
+    background-image: url(./img/por-ciento-01.svg);
+    background-size: cover;
+    
+}
+
+
+&-Dinero-3{
+    
+    width:  55px;
+    height: 55px;
+    margin: 9px;
+    background-color:rgb(255, 208, 0);
+    background-repeat: no-repeat;
+    border-radius: 50px;
+    background-image: url(./img/dinero-01.svg);
+    background-size: cover;
+    
+}
+
+&-Maletin-4{
+    
+    width:  55px;
+    height: 55px;
+    margin: 9px;
+    background-color:rgb(255, 208, 0);
+    background-repeat: no-repeat;
+    border-radius: 50px;
+    background-image: url(./img/maletin-01.svg);
+    background-size: cover;
+    
+}
+
+&-Whatsapp-5{
+    
+    width:  55px;
+    height: 55px;
+    margin: 9px;
+    background-color:rgb(255, 208, 0);
+    background-repeat: no-repeat;
+    border-radius: 50px;
+    background-image: url(./img/whatsapp-01.svg);
+    background-size: cover;
+    
+}
+
+.Parrafo-1{
+
+    color: rgb(139, 139, 139);
+    text-align: center;
+    margin: 0 auto;
+    letter-spacing: 0.5pt;
+    line-height: 12pt;
+    padding: 0 auto;
+    
+}
+
+
+
+
+
+}

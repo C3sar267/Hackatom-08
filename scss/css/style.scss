@@ -1,0 +1,33 @@
+@import"./mixins/Mixins";
+@import"./menu/Menu";
+@import"./Estrucutura/escrutura";
+@import"./Visor/Mivisor";
+@import"./iconos/iconos";
+@import"./Visor-03/Visor-03";
+@import"./Icono-05/Icono-05";
+@import"./Precio/Precios";
+
+
+
+
+body{
+    background-color:#ffffff;
+    margin: 0 auto;
+    padding: 0 auto;
+
+    font-family: 'Mulish', sans-serif;
+
+    box-sizing: content-box;
+
+
+ @include mq(100px){
+
+    
+ }
+}
+
+
+
+.Container{
+    @include Container;
+}

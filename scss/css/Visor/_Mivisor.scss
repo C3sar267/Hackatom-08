@@ -1,0 +1,109 @@
+.Img-Visor{
+
+    width: 100%;
+    height: 100%;
+    background-color: rgb(255, 255, 255);
+    padding: 0 auto;
+    margin: 0 auto;
+    background-image: url(./img/VISORNUEVO.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+
+.Botones{
+
+    width: 100%;
+    height: 10em;
+    
+    margin: auto;
+    padding: 0 auto;
+    position: relative;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    flex-direction: column;
+   
+
+
+    form input[type="text"],
+    form input[type="nombre"]{
+    width:180px;
+    height: 35px;
+	padding:3px 10px;
+	border:1px solid #f6f6f6;
+    border-radius:3px;
+    border-style: outset;
+    background-color:#f6f6f6;
+    font-family: 'Mulish', sans-serif;
+    font-weight: normal;
+	margin:8px 0;
+    display:inline-block;
+    
+    
+}
+
+form input[type="submit"]{
+	
+	padding:9px 18px;
+	height: 40px;
+	border:1px solid rgb(221, 183, 13);
+	border-radius:5px;
+	
+	color: rgb(65, 65, 65);
+	background-color:rgb(255, 208, 0);
+} 
+
+form input[type="submit"]:hover{
+	cursor:pointer;
+}
+
+
+&-Texto{
+
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    color: rgb(65, 65, 65);
+    margin: 0px;
+    padding: 5px;
+    letter-spacing: 1pt;
+}
+
+&-Texto-2{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    letter-spacing: 1pt;
+    margin: 0px;
+    padding-top: 20px;
+    font-weight: bold;
+
+}
+
+
+
+
+}
+
+.Title{
+    margin: 0 auto;
+    font-size: 20px;
+    position: relative;
+    text-align: center;
+    padding-top: 60px;
+    padding-bottom: 20px;
+    font-size: 25px;
+    color: rgb(65, 65, 65);
+    font-weight:bold;
+    
+    
+    line-height:25pt;
+    letter-spacing: 1pt;
+    
+    
+}

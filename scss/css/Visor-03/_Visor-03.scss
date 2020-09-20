@@ -1,0 +1,524 @@
+.Contenido{
+
+    width: 80%;
+    height: 100%;
+    
+    margin: 0 auto;
+    padding-bottom: 60px;
+    
+    background-color: rgb(255, 255, 255);
+    
+    
+ /*Contenido delos dos cajones*/   
+&-Cajones{
+
+    width:100%;
+    
+    margin: 0 auto;
+    
+    color: #333333;
+    display: flex;
+
+}
+/*Contenido delos dos cajones*/  
+
+
+
+&-Cajon-01{
+
+
+    width:30vw;
+    
+    background-color:rgb(255, 208, 0);
+    margin: 3px;
+    display: flex;
+    position: relative;
+    
+   }
+
+
+&-Imagen-01{
+
+    width:60vw;
+    
+    background-color: rgb(255, 208, 0);
+    background-image: url(./img/Dama.png);
+    background-repeat: no-repeat;
+    max-width: 100%;
+    background-size: cover;
+    position: relative;
+    
+    
+
+}
+/*Aqui los textos*/  
+
+&-Mistitulos{
+
+position: relative;
+
+
+}
+
+&-Title{
+    
+    
+    color: #333333;
+    padding-bottom: 15px;
+    
+    display: inherit;
+    letter-spacing: 1pt;
+    
+    
+    
+   
+}
+
+&-Title-Parrafo{
+    
+    
+    padding: 0 auto;
+    display: inherit;
+    position: relative;
+    color: #333333;
+    letter-spacing: 0.5pt;
+    font-size: 14px;
+    line-height: 18pt;
+    
+    
+    
+    
+    
+   
+}
+
+&-Insignia{
+    width:90px;
+    height: 90px;
+    background-color: rgb(255, 250, 251);
+    background-image: url(./img/escudo.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position:absolute;
+    z-index:1;
+    right:20px;
+     top:1em;
+    
+    border-radius: 50px;
+    
+
+}
+
+
+/*Aquitermina los textos*/ 
+
+
+
+/*Aqui empieza mi segundo cajones*/ 
+&-Cajon-02{
+
+
+        width:16.7vw;
+        
+        background-color: rgb(255, 255, 255);
+        margin: 3px;
+    
+    
+    }
+
+/*Aqui contenedor padre2do cajones*/ 
+    &-Cajonicono-01{
+
+       
+        height: 70px;
+        margin: 0 auto;
+        background-color: #ffffff;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-bottom: 1px solid rgb(218, 218, 218);
+        
+       
+    }
+/*Aqui contenedor padre2do cajones*/ 
+
+   
+
+    &-Texto01{
+
+        color: #333333;
+        margin: 0px;
+        padding: 0 auto;
+        letter-spacing: 0.5pt;
+        
+
+    }
+
+/*Aqui mis iconos cajones*/ 
+
+    &-Iconos01{
+
+        background-color: rgb(253, 253, 253);
+        width:45px;
+        height: 45px;
+        margin-right: 20px;
+        border-radius: 50px;
+        background-image: url(./img/Iconos-01.svg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        
+       
+
+    }
+
+    &-Iconos02{
+
+        background-color: #ffffff;
+        width:45px;
+        height: 45px;
+        margin-right: 20px;
+        border-radius: 50px;
+        background-image: url(./img/Iconos-02.svg);
+        background-repeat: no-repeat;
+        background-size: cover;
+       
+
+    }
+
+    &-Iconos03{
+
+        background-color: rgb(255, 255, 255);
+        width:45px;
+        height: 45px;
+        margin-right: 20px;
+        border-radius: 50px;
+        background-image: url(./img/Iconos-03.svg);
+        background-repeat: no-repeat;
+        background-size: cover;
+       
+
+    }
+
+    &-Iconos04{
+
+        background-color: rgb(255, 255, 255);
+        width:45px;
+        height: 45px;
+        margin-right: 20px;
+        border-radius: 50px;
+        background-image: url(./img/Iconos-04.svg);
+        background-repeat: no-repeat;
+        background-size: cover;
+       
+
+    }
+
+/*Aqui mis iconos cajones*/ 
+
+
+
+}
+/*Aqui termina mi segundo cajones*/ 
+
+.Title-01{
+
+    color: #333333;
+    text-align: center;
+    margin: 0 auto;
+    padding: 20px;
+    
+
+}
+
+
+
+
+
+
+/*-------------------------------Aqui Empieza la parte de Celphone---------------------------------*/ 
+
+
+
+.Iphones{
+
+    background-color: rgb(255, 255, 255);
+    width: 80%;
+    height: 100%;
+    padding: 40px 0px 40px 0px;
+    margin:0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-between;
+
+
+
+
+
+/*-------------------------------Aqui mis cajonese---------------------------------*/
+
+
+
+
+&-Cajon-1{
+
+    background-color: rgb(255, 255, 255);
+    width: 440px;
+    border:1px solid #b4b4b4;
+    background-image: url(./img/icono-iphone-01.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+
+}
+
+&-Title{
+
+    color: #333333;
+    padding: 0 auto;
+    letter-spacing: 0.5pt;
+    text-align: center;
+    margin: 20px;
+    font-weight: bold;
+
+
+}
+&-Title--Modificado{
+
+    color: #333333;
+    padding: 0 auto;
+    letter-spacing: 0.5pt;
+    line-height: 25pt; 
+    margin: 20px;
+
+
+}
+
+
+/*Aqui mi lista*/
+
+
+&-Lista{
+
+
+    letter-spacing: 0.5pt;
+    color: #333333;
+    font-weight: normal;
+    line-height: 25pt; 
+    font-weight: bold;
+    font-size: 13px;
+
+
+}
+
+li{
+    list-style-image: url(./img/lista-01.svg);
+    padding-left: 10px;
+    
+}
+/*Aqui terminai lista*/
+
+
+
+
+
+
+
+
+/*--------------------Aqui empieza mi cajon 02-----------------------------------*/
+
+
+
+&-Cajon-2{
+
+    background-color: rgb(255, 255, 255);
+    border:1px solid #b4b4b4;
+    width: 440px;
+    
+    background-image: url(./img/Background-Phone-01-01.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+
+}
+
+
+
+
+
+&-Titles{
+
+    color: #333333;
+    padding: 0 auto;
+    letter-spacing: 0.5pt;
+    
+    margin: 15px;
+    font-weight: bold;
+
+
+}
+
+
+
+
+
+
+
+&-Parrafo{
+    width: 20em;
+    padding: 0 auto;
+    display: inherit;
+    position: relative;
+    color: #333333;
+    letter-spacing: 0.5pt;
+    font-size: 14px;
+    line-height: 18pt;
+    margin: 20px;
+
+
+}
+
+
+
+
+
+
+
+}
+
+/*Aqui termina mi cajon 02*/
+
+
+
+
+
+
+
+
+
+
+
+/*-------------------------------------Aqui empieza  Iconos de  visor 3 ---------------------------*/
+
+.Circles{
+
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+    height: 150px;
+    margin:0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+
+
+    &-Cajon-1{
+
+    background-color: rgb(255, 255, 255);
+    width: 80%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    }
+
+
+    &-Contenedor{
+
+    background-color: rgb(248, 248, 248);
+    width:14em;
+    height: 5em;
+    margin: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    
+
+    }
+
+
+    &-Svg-1{
+
+        background-color: rgb(249, 251, 253);
+        width: 120px;
+        height:62px;
+        border-radius: 100px;
+        margin-right: 15px;
+        border:1px solid#333333;
+
+        background-image: url(./img/Corazon-Icono-01.svg);
+        background-repeat: no-repeat;
+        background-size: cover;
+
+        
+        }
+
+        &-Svg-2{
+
+            background-color: rgb(249, 251, 253);
+            width: 120px;
+            height:62px;
+            border-radius: 100px;
+            margin-right: 15px;
+            border:1px solid#333333;
+    
+            background-image: url(./img/Corazon-Icono-02.svg);
+            background-repeat: no-repeat;
+            background-size: cover;
+    
+            
+            }
+
+
+            &-Svg-3{
+
+                background-color: rgb(249, 251, 253);
+                width: 120px;
+                height:62px;
+                border-radius: 100px;
+                margin-right: 15px;
+                border:1px solid#333333;
+        
+                background-image: url(./img/Corazon-Icono-03.svg);
+                background-repeat: no-repeat;
+                background-size: cover;
+        
+                
+                }
+            
+                &-Svg-4{
+
+                    background-color: rgb(249, 251, 253);
+                    width: 120px;
+                    height:62px;
+                    border-radius: 100px;
+                    margin-right: 15px;
+                    border:1px solid#333333;
+            
+                    background-image: url(./img/Corazon-Icono-04.svg);
+                    background-repeat: no-repeat;
+                    background-size: cover;
+            
+                    
+                    }
+
+        
+    &-Texto-1{
+
+        color: #333333;
+        
+        padding: 0 auto;
+        letter-spacing: 0.5pt;
+        line-height: 15pt;
+        margin: auto;
+
+    }
+    
+
+    
+}
+
+
+/*-------------------------------Aqui termina la parte de Celphone---------------------------------*/

@@ -1,0 +1,236 @@
+.Precios{
+
+    width: 80%;
+    height: 100%;
+    background-color: rgb(255, 255, 255);
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+
+&-Todos{
+    width: 100%;
+    height: 25em;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+&-Contenido-01{
+
+    width: 15vw;
+    height: 34vh;
+    background-color: #FFD801;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+&-Contenido-02{
+
+    width: 15vw;
+    height: 34vh;
+    background-color: rgb(252, 252, 252);
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    display: flex;
+    border: 1px solid rgb(114, 114, 114);
+    
+    
+    
+
+}
+
+&-Contenido-03{
+
+    width: 15vw;
+    height: 34vh;
+    background-color: rgb(255, 255, 255);
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    display: flex;
+    border: 1px solid rgb(114, 114, 114);
+
+}
+
+
+&-Texto-1{
+
+    columns: #333333;;
+    margin: 5px;
+    text-align: center;
+
+    
+    
+}
+
+/*contenido del primer cajon marillos*/
+
+&-Primer-Texto-01{
+    font-size: 12px;
+    text-align: center;
+    padding: 0 auto;
+    margin: 0px;
+    letter-spacing: 2pt;
+}
+
+
+
+
+&-Circle{
+
+    height: 12em;
+    width: 12em;
+    background-color: rgb(255, 255, 255);
+    border-radius: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+&-Text-Soles{
+    font-size: 80px;
+    padding: 0 auto;
+    margin: 0px;
+}
+
+&-Text-Soles-1{
+    font-size: 12px;
+    text-align: center;
+    padding: 0 auto;
+    margin: 0px;
+    letter-spacing: 2pt;
+}
+
+
+&-Botom{
+
+    width: 200px;
+    height: 50px;
+    background-color: #FFD801;
+    padding: 5px;
+    cursor: pointer;
+    border: orange 1px solid;
+    border-radius: 10px;
+    font-weight: bold;
+    font-size: 15px;
+    color: #333333;
+    margin: 10px 0px 10px 0px;
+
+
+}
+button:hover {
+    background-color: rgb(243, 195, 38);
+  }
+
+/*contenido del primer cajon marillos*/
+
+
+
+/*contenido del Segundo cajon cajon marillos*/
+
+&-Primer-Texto-01{
+    font-size: 18px;
+    text-align: center;
+    font-weight: bold;
+    margin: 0px;
+    letter-spacing: 1pt;
+    color: #333333;
+    
+}
+
+&-Text-02{
+    font-size: 80px;
+    padding: 0 auto;
+    margin-bottom: 40px;
+    color: #333333;
+}
+
+&-Text-Soles-03{
+    font-size: 12px;
+    text-align: center;
+    padding: 0 auto;
+    margin: 0px;
+    letter-spacing: 2pt;
+    color: #333333;
+}
+
+&-Text-Pie-04{
+    font-size: 12px;
+    text-align: center;
+    padding: 0 auto;
+    margin: 0px;
+    letter-spacing: 1pt;
+    color: #333333;
+    position: relative;
+    
+    
+}
+
+
+/*contenido del Segundo cajon cajon marillos*/
+
+
+
+/*contenido del tercer cajon cajon marillos*/
+
+
+&-Primer-Texto-03{
+    font-size: 18px;
+    text-align: center;
+    font-weight: bold;
+    
+    letter-spacing: 1pt;
+    color: #333333;
+    
+}
+
+&-Text-03{
+
+    width: 250px;
+    
+    font-size: 80px;
+    padding: 0px;
+    margin: auto;
+    color: #333333;
+    border-top:3px solid #FFD801;
+    
+    text-align: center;
+}
+
+&-Text-Soles-003{
+    font-size: 12px;
+    text-align: center;
+    padding: 0 auto;
+    
+    letter-spacing: 2pt;
+    color: #b42525;
+}
+
+&-Text-Pie-03{
+    font-size: 12px;
+    text-align: center;
+    padding: 0 auto;
+    margin: 20px;
+    letter-spacing: 1pt;
+    color: #333333;
+    position: relative;
+    
+    
+}
+
+
+
+/*contenido del tercer cajon cajon marillos*/
+
+}

@@ -1,0 +1,1010 @@
+.Texto-Menu {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  text-align: right;
+  background-color: white;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.Logo {
+  background: white;
+  text-align: center;
+  width: 70px;
+  padding: 15px;
+  color: #fff;
+}
+
+.Fondo-Blanco {
+  background-color: #ffd82b;
+  height: 180vh;
+  width: 100%;
+}
+
+.Menu {
+  background-color: white;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 4;
+  grid-column: 1/5;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 10px 15px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 100%;
+  height: 70px;
+}
+
+.Visor {
+  background-color: white;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 4;
+  grid-column: 1/5;
+}
+
+.Iconos {
+  background-color: white;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 4;
+  grid-column: 1/5;
+}
+
+.Visor-03 {
+  background-color: white;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 4;
+  grid-column: 1/5;
+}
+
+.Circles {
+  background-color: #f8f8f8;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 4;
+  grid-column: 1/5;
+}
+
+.Precios {
+  background-color: white;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 4;
+  grid-column: 1/5;
+}
+
+.Cajon3 {
+  background-color: #2c2c2c;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 4;
+  grid-column: 1/5;
+}
+
+.Img-Visor {
+  width: 100%;
+  height: 100%;
+  background-color: white;
+  padding: 0 auto;
+  margin: 0 auto;
+  background-image: url(./img/VISORNUEVO.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.Botones {
+  width: 100%;
+  height: 10em;
+  margin: auto;
+  padding: 0 auto;
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.Botones form input[type="text"],
+.Botones form input[type="nombre"] {
+  width: 180px;
+  height: 35px;
+  padding: 3px 10px;
+  border: 1px solid #f6f6f6;
+  border-radius: 3px;
+  border-style: outset;
+  background-color: #f6f6f6;
+  font-family: 'Mulish', sans-serif;
+  font-weight: normal;
+  margin: 8px 0;
+  display: inline-block;
+}
+
+.Botones form input[type="submit"] {
+  padding: 9px 18px;
+  height: 40px;
+  border: 1px solid #ddb70d;
+  border-radius: 5px;
+  color: #414141;
+  background-color: #ffd000;
+}
+
+.Botones form input[type="submit"]:hover {
+  cursor: pointer;
+}
+
+.Botones-Texto {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-size: 18px;
+  color: #414141;
+  margin: 0px;
+  padding: 5px;
+  letter-spacing: 1pt;
+}
+
+.Botones-Texto-2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  letter-spacing: 1pt;
+  margin: 0px;
+  padding-top: 20px;
+  font-weight: bold;
+}
+
+.Title {
+  margin: 0 auto;
+  font-size: 20px;
+  position: relative;
+  text-align: center;
+  padding-top: 60px;
+  padding-bottom: 20px;
+  font-size: 25px;
+  color: #414141;
+  font-weight: bold;
+  line-height: 25pt;
+  letter-spacing: 1pt;
+}
+
+.Iconos {
+  width: 100%;
+  margin: 0 auto;
+  background-color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  border-bottom: #8d8d8d 1px solid;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.Iconos-Cajon-1 {
+  width: 15%;
+  height: 15em;
+  background-color: white;
+  display: inline-block;
+  margin: 5px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.Iconos-Sonrisa-1 {
+  width: 55px;
+  height: 55px;
+  margin: 9px;
+  background-color: #ffd000;
+  border-radius: 50px;
+  background-image: url(./img/sonrisa-01.svg);
+}
+
+.Iconos-Porciento-2 {
+  width: 55px;
+  height: 55px;
+  margin: 9px;
+  background-color: #ffd000;
+  background-repeat: no-repeat;
+  border-radius: 50px;
+  background-image: url(./img/por-ciento-01.svg);
+  background-size: cover;
+}
+
+.Iconos-Dinero-3 {
+  width: 55px;
+  height: 55px;
+  margin: 9px;
+  background-color: #ffd000;
+  background-repeat: no-repeat;
+  border-radius: 50px;
+  background-image: url(./img/dinero-01.svg);
+  background-size: cover;
+}
+
+.Iconos-Maletin-4 {
+  width: 55px;
+  height: 55px;
+  margin: 9px;
+  background-color: #ffd000;
+  background-repeat: no-repeat;
+  border-radius: 50px;
+  background-image: url(./img/maletin-01.svg);
+  background-size: cover;
+}
+
+.Iconos-Whatsapp-5 {
+  width: 55px;
+  height: 55px;
+  margin: 9px;
+  background-color: #ffd000;
+  background-repeat: no-repeat;
+  border-radius: 50px;
+  background-image: url(./img/whatsapp-01.svg);
+  background-size: cover;
+}
+
+.Iconos .Parrafo-1 {
+  color: #8b8b8b;
+  text-align: center;
+  margin: 0 auto;
+  letter-spacing: 0.5pt;
+  line-height: 12pt;
+  padding: 0 auto;
+}
+
+.Contenido {
+  width: 80%;
+  height: 100%;
+  margin: 0 auto;
+  padding-bottom: 60px;
+  background-color: white;
+  /*Contenido delos dos cajones*/
+  /*Contenido delos dos cajones*/
+  /*Aqui los textos*/
+  /*Aquitermina los textos*/
+  /*Aqui empieza mi segundo cajones*/
+  /*Aqui contenedor padre2do cajones*/
+  /*Aqui contenedor padre2do cajones*/
+  /*Aqui mis iconos cajones*/
+  /*Aqui mis iconos cajones*/
+}
+
+.Contenido-Cajones {
+  width: 100%;
+  margin: 0 auto;
+  color: #333333;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.Contenido-Cajon-01 {
+  width: 30vw;
+  background-color: #ffd000;
+  margin: 3px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: relative;
+}
+
+.Contenido-Imagen-01 {
+  width: 60vw;
+  background-color: #ffd000;
+  background-image: url(./img/Dama.png);
+  background-repeat: no-repeat;
+  max-width: 100%;
+  background-size: cover;
+  position: relative;
+}
+
+.Contenido-Mistitulos {
+  position: relative;
+}
+
+.Contenido-Title {
+  color: #333333;
+  padding-bottom: 15px;
+  display: inherit;
+  letter-spacing: 1pt;
+}
+
+.Contenido-Title-Parrafo {
+  padding: 0 auto;
+  display: inherit;
+  position: relative;
+  color: #333333;
+  letter-spacing: 0.5pt;
+  font-size: 14px;
+  line-height: 18pt;
+}
+
+.Contenido-Insignia {
+  width: 90px;
+  height: 90px;
+  background-color: #fffafb;
+  background-image: url(./img/escudo.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: absolute;
+  z-index: 1;
+  right: 20px;
+  top: 1em;
+  border-radius: 50px;
+}
+
+.Contenido-Cajon-02 {
+  width: 16.7vw;
+  background-color: white;
+  margin: 3px;
+}
+
+.Contenido-Cajonicono-01 {
+  height: 70px;
+  margin: 0 auto;
+  background-color: #ffffff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  border-bottom: 1px solid #dadada;
+}
+
+.Contenido-Texto01 {
+  color: #333333;
+  margin: 0px;
+  padding: 0 auto;
+  letter-spacing: 0.5pt;
+}
+
+.Contenido-Iconos01 {
+  background-color: #fdfdfd;
+  width: 45px;
+  height: 45px;
+  margin-right: 20px;
+  border-radius: 50px;
+  background-image: url(./img/Iconos-01.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.Contenido-Iconos02 {
+  background-color: #ffffff;
+  width: 45px;
+  height: 45px;
+  margin-right: 20px;
+  border-radius: 50px;
+  background-image: url(./img/Iconos-02.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.Contenido-Iconos03 {
+  background-color: white;
+  width: 45px;
+  height: 45px;
+  margin-right: 20px;
+  border-radius: 50px;
+  background-image: url(./img/Iconos-03.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.Contenido-Iconos04 {
+  background-color: white;
+  width: 45px;
+  height: 45px;
+  margin-right: 20px;
+  border-radius: 50px;
+  background-image: url(./img/Iconos-04.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/*Aqui termina mi segundo cajones*/
+.Title-01 {
+  color: #333333;
+  text-align: center;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/*-------------------------------Aqui Empieza la parte de Celphone---------------------------------*/
+.Iphones {
+  background-color: white;
+  width: 80%;
+  height: 100%;
+  padding: 40px 0px 40px 0px;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  /*-------------------------------Aqui mis cajonese---------------------------------*/
+  /*Aqui mi lista*/
+  /*Aqui terminai lista*/
+  /*--------------------Aqui empieza mi cajon 02-----------------------------------*/
+}
+
+.Iphones-Cajon-1 {
+  background-color: white;
+  width: 440px;
+  border: 1px solid #b4b4b4;
+  background-image: url(./img/icono-iphone-01.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.Iphones-Title {
+  color: #333333;
+  padding: 0 auto;
+  letter-spacing: 0.5pt;
+  text-align: center;
+  margin: 20px;
+  font-weight: bold;
+}
+
+.Iphones-Title--Modificado {
+  color: #333333;
+  padding: 0 auto;
+  letter-spacing: 0.5pt;
+  line-height: 25pt;
+  margin: 20px;
+}
+
+.Iphones-Lista {
+  letter-spacing: 0.5pt;
+  color: #333333;
+  font-weight: normal;
+  line-height: 25pt;
+  font-weight: bold;
+  font-size: 13px;
+}
+
+.Iphones li {
+  list-style-image: url(./img/lista-01.svg);
+  padding-left: 10px;
+}
+
+.Iphones-Cajon-2 {
+  background-color: white;
+  border: 1px solid #b4b4b4;
+  width: 440px;
+  background-image: url(./img/Background-Phone-01-01.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.Iphones-Titles {
+  color: #333333;
+  padding: 0 auto;
+  letter-spacing: 0.5pt;
+  margin: 15px;
+  font-weight: bold;
+}
+
+.Iphones-Parrafo {
+  width: 20em;
+  padding: 0 auto;
+  display: inherit;
+  position: relative;
+  color: #333333;
+  letter-spacing: 0.5pt;
+  font-size: 14px;
+  line-height: 18pt;
+  margin: 20px;
+}
+
+/*Aqui termina mi cajon 02*/
+/*-------------------------------------Aqui empieza  Iconos de  visor 3 ---------------------------*/
+.Circles {
+  background-color: white;
+  width: 100%;
+  height: 150px;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.Circles-Cajon-1 {
+  background-color: white;
+  width: 80%;
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.Circles-Contenedor {
+  background-color: #f8f8f8;
+  width: 14em;
+  height: 5em;
+  margin: 5px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  position: relative;
+}
+
+.Circles-Svg-1 {
+  background-color: #f9fbfd;
+  width: 120px;
+  height: 62px;
+  border-radius: 100px;
+  margin-right: 15px;
+  border: 1px solid #333333;
+  background-image: url(./img/Corazon-Icono-01.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.Circles-Svg-2 {
+  background-color: #f9fbfd;
+  width: 120px;
+  height: 62px;
+  border-radius: 100px;
+  margin-right: 15px;
+  border: 1px solid #333333;
+  background-image: url(./img/Corazon-Icono-02.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.Circles-Svg-3 {
+  background-color: #f9fbfd;
+  width: 120px;
+  height: 62px;
+  border-radius: 100px;
+  margin-right: 15px;
+  border: 1px solid #333333;
+  background-image: url(./img/Corazon-Icono-03.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.Circles-Svg-4 {
+  background-color: #f9fbfd;
+  width: 120px;
+  height: 62px;
+  border-radius: 100px;
+  margin-right: 15px;
+  border: 1px solid #333333;
+  background-image: url(./img/Corazon-Icono-04.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.Circles-Texto-1 {
+  color: #333333;
+  padding: 0 auto;
+  letter-spacing: 0.5pt;
+  line-height: 15pt;
+  margin: auto;
+}
+
+/*-------------------------------Aqui termina la parte de Celphone---------------------------------*/
+/*-------------------------------------Aqui empieza  Iconos de  visor 3 ---------------------------*/
+.Circles {
+  width: 80%;
+  height: 10em;
+  background-color: white;
+  margin: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.Circles-Contenedor {
+  background-color: white;
+  width: 90%;
+  height: 15vh;
+  margin: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.Circles-Svg-1 {
+  background-color: #f9fbfd;
+  width: 100px;
+  height: 48px;
+  border-radius: 100px;
+  margin-right: 15px;
+  border: 1px solid #333333;
+  background-image: url(./img/Corazon-Icono-01.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.Circles-Svg-2 {
+  background-color: #f9fbfd;
+  width: 100px;
+  height: 48px;
+  border-radius: 100px;
+  margin-right: 15px;
+  border: 1px solid #333333;
+  background-image: url(./img/Corazon-Icono-02.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.Circles-Svg-3 {
+  background-color: #f9fbfd;
+  width: 100px;
+  height: 48px;
+  border-radius: 100px;
+  margin-right: 15px;
+  border: 1px solid #333333;
+  background-image: url(./img/Corazon-Icono-03.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.Circles-Svg-4 {
+  background-color: #f9fbfd;
+  width: 100px;
+  height: 48px;
+  border-radius: 100px;
+  margin-right: 15px;
+  border: 1px solid #333333;
+  background-image: url(./img/Corazon-Icono-04.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.Circles-Texto-1 {
+  color: #333333;
+  padding: 0 auto;
+  letter-spacing: 0.5pt;
+  line-height: 15pt;
+  margin: auto;
+}
+
+/*-------------------------------Aqui termina la parte de Celphone---------------------------------*/
+.Precios {
+  width: 80%;
+  height: 100%;
+  background-color: white;
+  margin: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  /*contenido del primer cajon marillos*/
+  /*contenido del primer cajon marillos*/
+  /*contenido del Segundo cajon cajon marillos*/
+  /*contenido del Segundo cajon cajon marillos*/
+  /*contenido del tercer cajon cajon marillos*/
+  /*contenido del tercer cajon cajon marillos*/
+}
+
+.Precios-Todos {
+  width: 100%;
+  height: 25em;
+  background-color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.Precios-Contenido-01 {
+  width: 15vw;
+  height: 34vh;
+  background-color: #FFD801;
+  margin: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.Precios-Contenido-02 {
+  width: 15vw;
+  height: 34vh;
+  background-color: #fcfcfc;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  border: 1px solid #727272;
+}
+
+.Precios-Contenido-03 {
+  width: 15vw;
+  height: 34vh;
+  background-color: white;
+  margin: auto;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  border: 1px solid #727272;
+}
+
+.Precios-Texto-1 {
+  -webkit-columns: #333333;
+          columns: #333333;
+  margin: 5px;
+  text-align: center;
+}
+
+.Precios-Primer-Texto-01 {
+  font-size: 12px;
+  text-align: center;
+  padding: 0 auto;
+  margin: 0px;
+  letter-spacing: 2pt;
+}
+
+.Precios-Circle {
+  height: 12em;
+  width: 12em;
+  background-color: white;
+  border-radius: 100px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.Precios-Text-Soles {
+  font-size: 80px;
+  padding: 0 auto;
+  margin: 0px;
+}
+
+.Precios-Text-Soles-1 {
+  font-size: 12px;
+  text-align: center;
+  padding: 0 auto;
+  margin: 0px;
+  letter-spacing: 2pt;
+}
+
+.Precios-Botom {
+  width: 200px;
+  height: 50px;
+  background-color: #FFD801;
+  padding: 5px;
+  cursor: pointer;
+  border: orange 1px solid;
+  border-radius: 10px;
+  font-weight: bold;
+  font-size: 15px;
+  color: #333333;
+  margin: 10px 0px 10px 0px;
+}
+
+.Precios button:hover {
+  background-color: #f3c326;
+}
+
+.Precios-Primer-Texto-01 {
+  font-size: 18px;
+  text-align: center;
+  font-weight: bold;
+  margin: 0px;
+  letter-spacing: 1pt;
+  color: #333333;
+}
+
+.Precios-Text-02 {
+  font-size: 80px;
+  padding: 0 auto;
+  margin-bottom: 40px;
+  color: #333333;
+}
+
+.Precios-Text-Soles-03 {
+  font-size: 12px;
+  text-align: center;
+  padding: 0 auto;
+  margin: 0px;
+  letter-spacing: 2pt;
+  color: #333333;
+}
+
+.Precios-Text-Pie-04 {
+  font-size: 12px;
+  text-align: center;
+  padding: 0 auto;
+  margin: 0px;
+  letter-spacing: 1pt;
+  color: #333333;
+  position: relative;
+}
+
+.Precios-Primer-Texto-03 {
+  font-size: 18px;
+  text-align: center;
+  font-weight: bold;
+  letter-spacing: 1pt;
+  color: #333333;
+}
+
+.Precios-Text-03 {
+  width: 250px;
+  font-size: 80px;
+  padding: 0px;
+  margin: auto;
+  color: #333333;
+  border-top: 3px solid #FFD801;
+  text-align: center;
+}
+
+.Precios-Text-Soles-003 {
+  font-size: 12px;
+  text-align: center;
+  padding: 0 auto;
+  letter-spacing: 2pt;
+  color: #b42525;
+}
+
+.Precios-Text-Pie-03 {
+  font-size: 12px;
+  text-align: center;
+  padding: 0 auto;
+  margin: 20px;
+  letter-spacing: 1pt;
+  color: #333333;
+  position: relative;
+}
+
+body {
+  background-color: #ffffff;
+  margin: 0 auto;
+  padding: 0 auto;
+  font-family: 'Mulish', sans-serif;
+  -webkit-box-sizing: content-box;
+          box-sizing: content-box;
+}
+
+.Container {
+  width: 60%;
+  padding: 0 auto;
+  margin: 0 auto;
+  background-color: #ffffff;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[4];
+      grid-template-columns: repeat(4, 1fr);
+  grid-auto-rows: minmax(2em, auto);
+  -webkit-box-shadow: -2px 3px 35px 9px rgba(0, 0, 0, 0.27);
+  box-shadow: -2px 3px 35px 9px rgba(0, 0, 0, 0.27);
+  /*gap: 1em;*/
+}
+/*# sourceMappingURL=style.css.map */
